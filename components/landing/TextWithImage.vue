@@ -1,5 +1,5 @@
 <template>
-     <div class="grid lg:grid-cols-2 place-items-center py-20">
+     <div class="grid lg:grid-cols-2 place-items-center py-10">
         <div class="p-0 pb-4 md:p-4 md:order-1 block">
         <img
             class="rounded"
@@ -13,15 +13,13 @@
         </div>
 
         <div>
-        <h1 class="text-3xl md:text-6xl font-bold lg:tracking-tight">
-            Marketing website done with Nuxt
+        <h1 class="text-3xl md:text-5xl text-sky-800 font-bold lg:tracking-tight">
+            Our Dental Practice
         </h1>
-        <p class="text-lg mt-4 text-slate-600 max-w-xl">
-            Nuxtship is a starter template for startups, marketing websites &
-            landing pages.<wbr /> Built with Nuxt & TailwindCSS. You can quickly
-            create any website with this starter.
+        <p class="text-lg mt-4 text-sky-900 text-slate-600 max-w-xl">
+            We understand that a healthy smile is essential for both your physical and emotional well-being. At [Your Dental Practice Name], we offer a comprehensive range of dental services in a comfortable and welcoming environment.
         </p>
-        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <div class="mt-6 flex flex-col sm:flex-row gap-3 hidden">
             <LandingLink
             href="#"
             target="_blank"

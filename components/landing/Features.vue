@@ -1,65 +1,67 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Gentle & Painless Care",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "We prioritize patient comfort with the latest technology and techniques.",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Experienced & Knowledgeable Team",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "Our team of qualified dentists and hygienists are passionate about your oral health.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
+    title: "Comprehensive Services",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
+      "We offer a wide range of services, from routine cleanings to dental implants. ",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
+    title: "Convenient Scheduling Options",
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "We offer flexible appointment times to fit your busy schedule.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
+    title: "Family-Friendly Environment",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+      "We strive to make every visit enjoyable for the whole family.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Community",
+    title: "Affordable Dental Care",
     description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+      "We work with most insurance plans and offer financing options..",
     icon: "bx:bxs-user",
   },
 ];
 </script>
 
 <template>
-  <div class="mt-16">
-    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+  <div class="py-20">
+    <div class="mt-4">
+    <h2 class="text-4xl lg:text-5xl text-sky-800 font-bold lg:tracking-tight">
       Why Choose [Your Dental Practice Name]?
     </h2>
-    <p class="text-lg mt-4 text-slate-600">
+    <p class="text-lg mt-4 text-sky-900">
       We are dedicated to providing exceptional dental care to patients of all ages. Here's what sets us apart:
     </p>
   </div>
 
   <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
     <div v-for="item of features" class="flex gap-4 items-start">
-      <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
+      <div class="mt-1 bg-sky-400 rounded-full p-2 w-8 h-8 shrink-0">
         <Icon class="text-white" :name="item.icon" />
       </div>
       <div>
-        <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-        <p class="text-slate-500 mt-2 leading-relaxed">
+        <h3 class="font-semibold text-lg text-sky-800">{{ item.title }}</h3>
+        <p class="text-slate-500 mt-2 leading-relaxed text-sky-900">
           {{ item.description }}
         </p>
       </div>
     </div>
+  </div>
   </div>
 </template>
