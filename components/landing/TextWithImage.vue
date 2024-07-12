@@ -2,13 +2,13 @@
      <div class="grid lg:grid-cols-2 place-items-center py-10">
         <div class="p-0 pb-4 md:p-4 md:order-1 block">
         <img
-            class="rounded"
+            class="rounded hover:opacity-70 transition smooth"
             src="~/assets/img/dentist-content01.jpg"
-            alt="Starship starts the engine"
+            alt="Dentist Office Layout"
             loading="eager"
-            format="avif"
-            width="512"
-            height="512"
+            format="jpg"
+           width="600"
+           height="600"
         />
         </div>
 
@@ -19,7 +19,7 @@
         <p class="text-lg mt-4 text-sky-900 text-slate-600 max-w-xl">
             We understand that a healthy smile is essential for both your physical and emotional well-being. At [Your Dental Practice Name], we offer a comprehensive range of dental services in a comfortable and welcoming environment.
         </p>
-        <div class="mt-6 flex flex-col sm:flex-row gap-3 hidden">
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
             <LandingLink
             href="#"
             target="_blank"

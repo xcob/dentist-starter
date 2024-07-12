@@ -1,5 +1,8 @@
+
+import { LandingSocials } from '#build/components';
 <template>
   <footer class="my-20">
+    <LandingSocials></LandingSocials>
     <p class="text-center text-sm text-slate-500">
       Copyright © {{ new Date().getFullYear() }} Dental Company. All rights reserved.
     </p>

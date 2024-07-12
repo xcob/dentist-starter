@@ -1,15 +1,15 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
-  },
-  {
-    title: "Pricing",
-    path: "#",
-  },
-  {
     title: "About",
+    path: "#",
+  },
+  {
+    title: "Patient Forms",
+    path: "#",
+  },
+  {
+    title: "Services",
     path: "#",
   },
   {
@@ -60,7 +60,7 @@ const open = ref(false);
           <li v-for="item of menuitems">
             <a
               :href="item.path"
-              class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
+              class="flex lg:px-3 py-2 text-gray-600 hover:text-sky-500"
             >
               {{ item.title }}
             </a>

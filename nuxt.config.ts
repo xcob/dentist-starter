@@ -8,5 +8,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["nuxt-icon", "@nuxt/ui"],
+  modules: ["nuxt-icon", "@nuxt/ui", "@nuxtjs/seo"],
 });
