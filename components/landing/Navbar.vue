@@ -5,11 +5,11 @@ const menuitems = [
     path: "#",
   },
   {
-    title: "Patient Forms",
+    title: "Services",
     path: "#",
   },
   {
-    title: "Services",
+    title: "Results",
     path: "#",
   },
   {
@@ -26,7 +26,7 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg">
-          <img src="~/assets/img/logo-cropped.png" class="w-32" alt="" srcset="">
+          <img src="~/assets/img/financial-services-logo.png" class="w-56" alt="" srcset="">
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">

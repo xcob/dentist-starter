@@ -1,39 +1,39 @@
 <script setup>
 const features = [
   {
-    title: "Gentle & Painless Care",
+    title: "Retirement Planning",
     description:
-      "We prioritize patient comfort with the latest technology and techniques.",
+      " Chart your course for a comfortable and fulfilling retirement.",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "Experienced & Knowledgeable Team",
+    title: "Investment Strategies",
     description:
-      "Our team of qualified dentists and hygienists are passionate about your oral health.",
+      "Grow your wealth with diversified investment solutions.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "Comprehensive Services",
+    title: "Risk Management",
     description:
-      "We offer a wide range of services, from routine cleanings to dental implants. ",
+      "Protect your financial security from unforeseen events.",
     icon: "bx:bxs-data",
   },
   {
-    title: "Convenient Scheduling Options",
+    title: "Tax Planning",
     description:
-      "We offer flexible appointment times to fit your busy schedule.",
+      "Minimize your tax burden and maximize your returns.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "Family-Friendly Environment",
+    title: "Estate Planning",
     description:
-      "We strive to make every visit enjoyable for the whole family.",
+      "Safeguard your legacy for generations to come.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Affordable Dental Care",
+    title: "Education Funding",
     description:
-      "We work with most insurance plans and offer financing options..",
+      "Invest in your child's future with a customized education plan.",
     icon: "bx:bxs-user",
   },
 ];
@@ -43,10 +43,10 @@ const features = [
   <div class="py-20">
     <div class="mt-4">
     <h2 class="text-4xl lg:text-5xl text-sky-800 font-bold lg:tracking-tight">
-      Why Choose [Your Dental Practice Name]?
+      Why Choose Us?
     </h2>
     <p class="text-lg mt-4 text-sky-900">
-      We are dedicated to providing exceptional dental care to patients of all ages. Here's what sets us apart:
+      We are dedicated to providing exceptional financial services. Here's what sets us apart:
     </p>
   </div>
 
