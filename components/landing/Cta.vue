@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-sky-800 px-16 py-16 mt-20 mx-auto max-w-6xl rounded-lg flex flex-col items-center text-center"
+    class="bg-sky-800 px-16 py-16 mt-20 mx-auto max-w-7xl rounded-lg flex flex-col items-center text-center"
   >
     <h2 class="text-white text-3xl md:text-5xl">Take Charge of Your Finances Today</h2>
     <p class="text-white mt-4 text-lg md:text-xl">

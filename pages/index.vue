@@ -11,7 +11,6 @@ definePageMeta({
   <LandingContainer>
     <LandingFeatures></LandingFeatures>
     <LandingTextWithImage></LandingTextWithImage>
-    <LandingTextWithImageReverse></LandingTextWithImageReverse>
     <LandingCta></LandingCta>
   </LandingContainer>
 </template>

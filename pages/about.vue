@@ -3,9 +3,7 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "https://source.unsplash.com/IF9TK5Uy-KI";
-const TeamImg2 = "https://source.unsplash.com/iEEBWgY_6lA";
-const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
+const TeamImg1 = "/img/avatar-placeholder.png";
 
 const team = [
   {
@@ -21,7 +19,7 @@ const team = [
     name: "Marcell Ziemann",
     title: "Principal Strategist",
     avatar: {
-      src: TeamImg2,
+      src: TeamImg1,
       width: 580,
       height: 580,
     },
@@ -30,7 +28,7 @@ const team = [
     name: "Robert Palmer",
     title: "Marketing Engineer",
     avatar: {
-      src: TeamImg3,
+      src: TeamImg1,
       width: 580,
       height: 580,
     },
